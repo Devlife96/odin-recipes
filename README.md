@@ -1,1 +1,3 @@
 # odin-recipes
+the website will have link to few recipes...
+it's  a training for the odin curriculum
