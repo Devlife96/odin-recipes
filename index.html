@@ -5,17 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="./recipes/burgers.html">Burgers</a></li>
-            <li><a href="./recipes/lunch.html">Lunch</a></li>
-            <li><a href="./recipes/salad.html">Salad</a></li>
-        </ul>
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav">
+                <div class="nav-brand"></div>
+                <div class="nav-link">
+                    <ul>
+                        <li><a href=".">Home</a></li>
+                        <li><a href="./recipes/burgers.html">Burgers</a></li>
+                        <li><a href="./recipes/lunch.html">Lunch</a></li>
+                        <li><a href="./recipes/salad.html">Salad</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
     </nav>
-    <h1>Odin Recipes</h1>
+    <div class="hero h-500 w-full mb-60">
+        <div class="container">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Odin Restaurant !</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                <form action="" method="post">
+                    <input type="text" class="bg-white" placeholder="search your favorite food...">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="section mb-60">
+        <div class="container">
+            <div class="headline mb-60">
+                <h1 class="mb-20">All Recipes</h1>
+                <div class="h-5 w-100 bg-primary"></div>
+            </div>
+            <div class="recipes-container w-full d-flex">
+                <div class="card w-percent-50 h-auto shadows bg-white rounded-16">
+                    <div class="card-img w-full h-300 bg-light rounded-top overflow-hiddden">
+                        <img src="./img/images.jpg" class="img-fluid h-100 w-full rounded-top" alt="" srcset="">
+                    </div>
+                    <div class="card-content p-22">
+                        <h4 class="tag mb-10 gray">Hambergers</h4>
+                        <h1 class="fw-bold mb-30"><a href="./recipes/burgers.html" class="primary-color">Hair Fryer Hambergers</a></h1>
+                        <div class="d-flex">
+                            <button class="btn w-auto p-16 bg-dark light rounded-5 fs-16 uppercase">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-percent-50 h-auto shadows bg-white rounded-16 ">
+                    <div class="card-img w-full h-300 bg-light rounded-top overflow-hiddden">
+                        <img src="./img/salad.jpg" class="img-fluid h-100 w-full rounded-top" alt="" srcset="">
+                    </div>
+                    <div class="card-content p-22">
+                        <h4 class="tag mb-10 gray">Lunch</h4>
+                        <h1 class="fw-bold mb-30"><a href="./recipes/lunch.html" class="primary-color">Ruben sandwitch</a></h1>
+                        <div class="d-flex">
+                            <button class="btn w-auto p-16 bg-dark light rounded-5 fs-16 uppercase">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-percent-50 h-auto shadows bg-white rounded-16 ">
+                    <div class="card-img w-full h-300 bg-light rounded-top overflow-hiddden">
+                        <img src="./img/lunch.jpg" class="img-fluid h-100 w-full rounded-top" alt="" srcset="">
+                    </div>
+                    <div class="card-content p-22">
+                        <h4 class="tag mb-10 gray">Salad</h4>
+                        <h1 class="fw-bold mb-30"><a href="./recipes/salad.html" class="primary-color">California Spaghetti salad</a></h1>
+                        <div class="d-flex">
+                            <button class="btn w-auto p-16 bg-dark light rounded-5 fs-16 uppercase">add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <section>
+        <div class="container">
+            <p class="text-center gray">All right reserve &copy; <script> document.write(new Date().getFullYear())</script> | Code by <span class="primary-color">Sindy Bayonne</span></p>
+        </div>
+    </section>
     
 </body>
 </html>
